@@ -1,0 +1,34 @@
+SQL Practices
+1. Select College details which are having IT  CSC departments across all the universities. Result should have below details;(Assume that one of the Designation name is ‘HOD’ in Designation table)
+CODE, COLLEGE_NAME, UNIVERSITY_NAME, CITY, STATE, YEAR_OPENED, DEPTARTMENT_NAME, HOD_NAME
+
+2. Select final year students(Assume that universities has Engineering Depts only) details who are studying under a particular university and selected cities alone.
+ROLL_NUMBER, NAME, GENDER, DOB, EMAIL, PHONE, ADDRESS, COLLEGE_NAME, DEPARTMENT_NAME
+
+3. Select students details who are studying under a particular university and selected cities alone. Fetch 20 records for every run.
+ROLL_NUMBER, NAME, GENDER, DOB, EMAIL, PHONE, ADDRESS, COLLEGE_NAME, DEPARTMENT_NAME, HOD_NAME
+
+4. List Employees details from a particular university along with their college and department details. Details should be sorted by rank and college name
+
+5. List Students details along with their GRADE,CREDIT and GPA details from all universities. Result should be sorted by college_name and semester. Apply paging also.
+
+6. Create new entries in SEMESTER_FEE table for each student from all the colleges and across all the universities. These entries should be created whenever new semester starts.. Each entry should have below default values;
+a) AMOUNT - Semester fees
+b) PAID_YEAR - Null
+c) PAID_STATUS - Unpaid
+
+7. Update PAID_STATUS and PAID_YEAR in SEMESTER_FEE table who has done the payment. Entries should be updated based on student ROLL_NUMBER.
+a) Single Update - Update one student entry
+b) Bulk Update - Update multiple students entries
+c) PAID_STATUS value as ‘Paid’
+d) PAID_YEAR value as ‘year format’
+
+8. Find employee vacancy position in all the departments from all the colleges and across the universities. Result should be populated with following information.. Designation, rank, college, department and university details.
+
+9. Show consolidated result for the following scenarios;
+a) collected and uncollected semester fees amount per semester for each college under an university. Result should be filtered based on given year.
+b) Collected semester fees amount for each university for the given year
+
+10. Display below result in one SQL run
+a) Shows students details who scored above 8 GPA for the given semester
+b) Shows students details who scored above 5 GPA for the given semester
