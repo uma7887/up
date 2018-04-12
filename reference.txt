@@ -1,0 +1,16 @@
+https://stackoverflow.com/questions/33010594/why-do-i-need-a-functional-interface-to-work-with-lambdas
+
+http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
+
+https://blog.oio.de/2016/01/22/parallel-stream-processing-in-java-8-performance-of-sequential-vs-parallel-stream-processing/
+
+http://www.java2s.com/Tutorials/Java/java.util.function/Supplier/index.htm
+
+http://www.java2s.com/Tutorials/Java/Java_Stream/0290__Java_Stream_Collect_to_Map.htm
+
+https://www.codementor.io/eh3rrera/using-java-8-method-reference-du10866vx#comments-du10866vx
+
+https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood
+
+http://www.baeldung.com/java-8-lambda-expressions-tips
+
